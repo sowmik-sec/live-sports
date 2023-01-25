@@ -1,0 +1,77 @@
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+/* common styles  */
+body {
+  margin: 0;
+}
+
+img {
+  /* width: 100%; */
+  height: 100%;
+}
+
+/* banner  */
+
+header {
+  display: flex;
+  background-color: rgb(39, 35, 35);
+  color: white;
+  /* justify-content: space-between; */
+  margin: 50px 120px;
+  border-radius: 35px;
+  border-bottom: 0;
+  height: 600px;
+}
+
+.intro {
+  padding: 70px 70px;
+}
+
+button {
+  color: white;
+  background-color: crimson;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px 20px;
+}
+
+.intro-img {
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+header h1 {
+  font-size: 4rem;
+}
+
+/* menu selection  */
+.menu-selection {
+  background-color: rgb(39, 35, 35);
+  padding: 20px;
+  height: 270px;
+  width: 200px;
+  border-radius: 10px;
+}
+.menu {
+  text-align: center;
+  height: 40px;
+  width: 150px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 5px;
+  padding-top: 25px;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu.upcoming {
+  background-color: crimson;
+  color: white;
+}
+
+#menu-a {
+  color: white;
+}
