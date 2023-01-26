@@ -190,7 +190,7 @@ main {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
   header {
     display: flex;
     flex-direction: column;
