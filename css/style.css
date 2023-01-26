@@ -48,7 +48,7 @@ header {
 }
 
 header h1 {
-  font-size: 4rem;
+  font-size: 3.4rem;
 }
 
 /* main section  */
@@ -151,7 +151,7 @@ main {
 }
 
 .extension {
-  margin: 50px 20px;
+  margin: 20px;
 }
 
 .fa-brands {
@@ -187,5 +187,62 @@ main {
   }
   .footer {
     margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(39, 35, 35);
+    color: white;
+    align-items: center;
+    /* margin: 50px 120px; */
+    margin: 5% 9%;
+    border-radius: 35px;
+    border-bottom: 0;
+    padding: 5% 10% 0;
+    /* height: 600px; */
+  }
+  .intro {
+    padding: 0;
+  }
+  .intro-img {
+    padding: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+    margin-top: 30px;
+  }
+  .half-width {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .menu-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+  }
+  .menu {
+    border: 1px solid rgb(236, 236, 236);
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .blogs {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-extension {
+    display: flex;
+    flex-direction: column;
   }
 }
