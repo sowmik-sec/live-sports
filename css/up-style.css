@@ -122,6 +122,11 @@ main {
   font-size: 1.4rem;
 }
 
+.btn-tablet {
+  text-align: center;
+  display: none;
+}
+
 /* footer  */
 .footer {
   background-color: rgb(39, 35, 35);
@@ -147,4 +152,36 @@ main {
 
 .fa-brands {
   padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-selection {
+    display: flex;
+    background-color: white;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+  }
+  .menu {
+    border: 1px solid rgb(236, 236, 236);
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .matches {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .match-tablet {
+    display: none;
+  }
+  .btn-tablet {
+    display: block;
+  }
+  .footer {
+    margin-top: 50px;
+  }
 }
